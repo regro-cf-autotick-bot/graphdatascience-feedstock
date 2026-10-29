@@ -1,5 +1,5 @@
 {% set name = "graphdatascience" %}
-{% set version = "2.1" %}
+{% set version = "2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/graphdatascience-{{ version }}.tar.gz
-  sha256: cde3743357c478d6e562ac7c52d82cd378550b855b41c1f40868060eb4ffaf9e
+  sha256: b63471304648e3d5827cb5f87857e8824d74e0a4a356066efba621e33c7a1712
 
 build:
   noarch: python
